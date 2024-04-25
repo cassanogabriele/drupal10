@@ -1,0 +1,29 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+function listbands_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the helloworld module.
+    case 'help.page.lisbands':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('List bands module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function listbands_theme() {
+  return [
+    'listbands' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+

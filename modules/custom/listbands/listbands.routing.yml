@@ -1,0 +1,7 @@
+listbands.listbands_controller_list:
+  path: 'listbands'
+  defaults:
+    _controller: '\Drupal\listbands\Controller\ListBandsController::list'
+    _title: 'Liste des groupes'
+  requirements:
+    _permission: 'access content'

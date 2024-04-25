@@ -1,0 +1,10 @@
+name: 'Liste des groupes'
+type: module
+description: 'Liste de groupes de Rock And Roll'
+core_version_requirement: ^10
+package: 'Custom'
+project: 'listbands'
+configure: listband.settings
+css:
+    theme:
+      css/style.css: {}

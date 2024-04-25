@@ -1,0 +1,13 @@
+{
+    "name": "listbands",
+    "type": "drupal-module",
+    "description": "List Rock N' Roll bands module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/listbands",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/listbands",
+        "source": "http://cgit.drupalcode.org/listbands"
+    }
+}
